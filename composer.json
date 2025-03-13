@@ -1,0 +1,21 @@
+{
+    "name": "eduard/analitycs",
+    "description": "Analitycs module for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eduard\\Analitycs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eduard\\Analitycs\\AnalitycsServiceProvider"
+            ]
+        }
+    }
+}
